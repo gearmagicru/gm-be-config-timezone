@@ -1,0 +1,26 @@
+{
+    "name": "gearmagicru/gm-be-config-timezone",
+    "description": "Control Panel extension (module) \"Regional settings\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-extension", "extension", "configuration", "timezone"],
+    "homepage": "https://apps.gearmagic.ru/component/gm-be-config-timezone",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Tivonenko",
+            "email": "anton.tivonenko@gmail.com",
+            "homepage": "https://gearmagic.ru"
+        }
+    ],
+    "require": {
+        "gearmagicru/gm-composer-plugin": "*"
+    },
+    "extra": {
+        "gm": {
+            "id": "gm.be.config.timezone",
+            "vendor": "gm"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
