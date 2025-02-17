@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/gearmagicru/gm-be-config-timezone/refs/heads/master/assets/images/icon.svg" width="64px" height="64px" align="absmiddle"> Расширение (модуль) панели управления "Сессия"
+# <img src="https://raw.githubusercontent.com/gearmagicru/gm-be-config-timezone/refs/heads/master/assets/images/icon.svg" width="64px" height="64px" align="absmiddle"> Расширение (модуль) панели управления "Региональные настройки"
 
-Настройка сессии пользователя веб-приложения GearMagic.
+Настройка часовых поясов веб-приложения GearMagic.
 
 Этот модуль является расширением для [модуля "Конфигурация"](https://github.com/gearmagicru/gm-be-config).
 
