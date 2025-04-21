@@ -12,8 +12,8 @@
 return [
     'name'        => 'Regional settings',
     'description' => 'Default timezone and countries',
-    'version'     => '1.0',
-    'versionDate' => '20-12-2017',
+    'version'     => '1.0.1',
+    'versionDate' => '21-04-2025',
     'author'      => 'GearMagic',
     'authorUrl'   => 'https://gearmagic.ru',
     'email'       => 'anton.tivonenko@gmail.com',
