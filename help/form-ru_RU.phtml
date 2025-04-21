@@ -11,8 +11,8 @@
  */
 ?>
 <article>
-    <h1>Форма региональных настроек</h1>
-    <p>Форму региональных настроек можно вызвать из:</p>
+    <h1>Форма "Региональные настройки"</h1>
+    <p>Форму настроек можно вызвать из:</p>
     <ul>
         <li>панели конфигурации веб-приложения;</li>
         <li>панели разделов "Конфигурация / Регион и языки";</li>
@@ -20,8 +20,11 @@
     </ul>
     <h2>Поля формы</h2>
     <ul class="g-help-list">
-        <li><b>Часовой пояс.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Первый день недели.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Сбросить настройки.</b> Сбрасывает все настройки до значений по умолчанию (только после нажатия кнопки "Сохранить").</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Ваш часовой пояс.</b> <em>Значение только для чтения.</em> Изменить свой часовой пояс можно в модуле "Пользователи";</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Часовой пояс сервера.</b> <em>Значение только для чтения.</em> Все данные содержащие дату и время вашего веб-приложения хранятся на сервере в его часовом поясе. Изменить можно только в файле конфигурации веб-приложения или на этапе установки;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Часовой пояс.</b> Применяется для всех пользователей у которых часовой пояс не установлен;</li>
+        <li><span class="g-help-fld g-help-fld_combo"></span> <b>Первый день недели.</b> День с которого идёт отсчёт календарной недели;</li>
+        <li><span class="g-help-fld g-help-fld_checkbox"></span> <b>Сбросить настройки.</b> Сбрасывает все настройки до значений по умолчанию, если установлен флаг (только после нажатия кнопки "Сохранить").</li>
     </ul>
+    <p>Подробно о поддерживаемых часовых поясах можно узнать <a target="_blank" href="https://www.php.net/manual/ru/timezones.php">здесь</a>.</p>
 </article>

@@ -1,6 +1,6 @@
 <?php
 /**
- * Страница "Форма региональных настроек".
+ * Страница "Форма Региональные настройки".
  * 
  * Локализации по умолчанию.
  * 
@@ -20,8 +20,11 @@
     </ul>
     <h2>Form fields</h2>
     <ul class="g-help-list">
-        <li><b>Timezone.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>First day of the week.</b> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua;</li>
-        <li><b>Reset settings.</b> Resets all settings to default values (only after pressing the "Save" button).</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Your time zone.</b> <em>Read-only value.</em> You can change your time zone in the "Users" module.;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Server time zone.</b> <em>Read-only value.</em> All data containing the date and time of your web application is stored on the server in its time zone. It can only be changed in the web application configuration file or at the installation stage.;</li>
+        <li><span class="g-help-fld g-help-fld_text"></span> <b>Time zone.</b> Applies to all users who do not have a time zone set;</li>
+        <li><span class="g-help-fld g-help-fld_combo"></span> <b>First day of the week.</b> The day from which the calendar week begins;</li>
+        <li><span class="g-help-fld g-help-fld_checkbox"></span> <b>Reset settings.</b> Resets all settings to default values ​​if the flag is set (only after pressing the "Save" button).</li>
     </ul>
+    <p>Detailed information about supported time zones can be found <a target="_blank" href="https://www.php.net/manual/ru/timezones.php">here</a>.</p>
 </article>
